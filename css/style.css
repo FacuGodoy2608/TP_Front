@@ -340,7 +340,7 @@ body{
 /* Formulario */
 .body_form{
    
-    background-image: url(/img/img_plataforma.jpg);
+    background-image: url("https://raw.githubusercontent.com/FacuGodoy2608/TP_Front/main/img/img_plataforma.jpg");
     background-size: cover;
     align-items: center;
     justify-content: center;
