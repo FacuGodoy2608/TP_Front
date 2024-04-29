@@ -45,12 +45,20 @@ body{
 
 /* Formulario */
 
+.body_form{
+   
+    background-image: url("https://raw.githubusercontent.com/FacuGodoy2608/TP_Front/main/img/img_plataforma.jpg");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* HEADER  */
 
 .Header {
     width: var(--w_flex);
     height: 10vh;
-    position: fixed;
 
     background-color: var(--c_red900);
 }
@@ -88,15 +96,6 @@ body{
 }
 
 /* BODY  */
-
-.body_form{
-   
-    background-image: url("https://raw.githubusercontent.com/FacuGodoy2608/TP_Front/main/img/img_plataforma.jpg");
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-}
-
 
 .form{
     display: flex;
