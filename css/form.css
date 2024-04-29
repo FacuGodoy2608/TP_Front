@@ -73,6 +73,7 @@ body{
 
 .Header .nav_principal .cac_logo{
     margin: auto 0 auto calc(var(--f_fontSize) * 4);
+    display: flex;
 
     animation-name: movimientoLogo;
     animation-duration: 2s;
@@ -82,6 +83,9 @@ body{
     color: var(--c_white);
     text-decoration: none;
     font-weight: 500;
+
+    display: inline-flex;
+    align-items: center;
 }
 
 .Header .nav_principal .cac_logo a figure{
