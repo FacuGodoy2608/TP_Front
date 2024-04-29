@@ -140,3 +140,11 @@ body{
     font-size:medium;
     font-weight: 500;
 }
+
+
+/* ANIMACIONES */
+
+@keyframes movimientoLogo{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
