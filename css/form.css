@@ -47,7 +47,7 @@ body{
 
 .body_form{
    
-    background-image: url("https://raw.githubusercontent.com/FacuGodoy2608/TP_Front/main/img/img_plataforma.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/FacuGodoy2608/TP_Front/main/img/img_plataforma.jpg");
     background-size: cover;
     align-items: center;
     justify-content: center;
