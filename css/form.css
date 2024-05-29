@@ -118,6 +118,8 @@ body{
     opacity: 80%;
     color: #FFFFFF;
     font-size:medium;
+
+    border-radius: var(--f_fontSize);
     
     .boton{
         font-size: calc(var(--f_fontSize)*1);
@@ -139,6 +141,11 @@ body{
     text-align: center;
     font-size:medium;
     font-weight: 500;
+    padding-bottom: var(--f_fontSize);
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--f_fontSize);
 
     label{
         margin-right: 15px;
@@ -146,7 +153,11 @@ body{
 }
 
 .body_form .form .form_section .form_contenido div {
-    
+
+}
+
+.body_form .form .form_section .form_contenido div .error-text{
+    color: var(--c_red600);
 }
 
 /* DESPUES ORDENAR */
