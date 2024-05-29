@@ -145,6 +145,12 @@ body{
     }
 }
 
+/* DESPUES ORDENAR */
+
+.error input:not(.check, .boton), .error select{
+    border: 2px solid #C62828;
+}
+
 
 /* ANIMACIONES */
 
